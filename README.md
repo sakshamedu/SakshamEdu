@@ -1,5 +1,8 @@
 ### Hi there 👋
 
+This is an attempt to make an official website of Saksham, an NGO which is working hard for the upliftment of underpriviledge 
+children through education.
+
 <!--
 **sakshamedu/SakshamEdu** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
