@@ -51,10 +51,10 @@ body {
     margin-right: 0;
 }
 
-.navbar .menu-items li a:hover {
+/*.navbar .menu-items li a:hover {
     background: rgb(38, 199, 38);
     color: black;
-  }
+  }*/
   
 .navbar .menu-items li a {
     text-decoration: none;
