@@ -8,12 +8,13 @@
 }
 
 .main-text {
-	background-color: lightblue;
+	background-color: white;
     width: 80%;
     margin: 50px auto;
 	color: black;
     padding: 30px;
 	margin-bottom: 50px;
+	border-radius:25px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -36,16 +37,20 @@
     position: relative;
 	padding: 30px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius:25px;
 }
 
 
 .value {
     background-color: white;
     text-align: center;
+    margin:50px;
     justify-content: center;
     padding: 75px;
 	padding-top: 55px;
 	padding-bottom: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius:25px;
 }
 
 .title h3 {
@@ -56,7 +61,8 @@
 	padding-right: 10px;
 	width: 36%;
 	margin: auto;
-	
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius:25px;
 }
 
 .value_container .menu-items {
@@ -108,6 +114,7 @@ hr.solid {
 	padding: 25px;	
 	border: none;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-radius:25px;
 }
 
 .container .card h2{
