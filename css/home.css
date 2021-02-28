@@ -54,7 +54,7 @@
 }
 
 .title h3 {
-	background-color: lightblue;
+	background-color: lightgreen;
 	color: black;
    	padding: 15px;
 	padding-left: 10px;
@@ -81,7 +81,7 @@
 }
 
 hr.solid {
-  	border-top: 3px solid lightblue;
+  	border-top: 3px solid lightgreen;
   	width: 60%;
   	margin: auto;
 }
