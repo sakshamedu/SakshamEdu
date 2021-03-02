@@ -1,0 +1,36 @@
+
+
+.background-home {
+  /* The image used */
+  display: flex;
+  background-image: url(solution.jpg);
+  /* Full height */
+  height:100%; 
+  width: 100%;
+  /*opacity: 0.6;*/
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.text-on-bg {
+	display: flex;
+	position: absolute;
+	width: 1064px;
+	height: 70px;
+	left: 74px;
+	top: 367px;
+	background-color: lightgreen;
+    color: black;
+}
+#myDIV {
+  width: 300px;
+  height: 300px;
+  background-color: coral;
+  color: white;
+}
+
+<div id="myDIV">
+  <h1>Hello</h1>
+</div>
