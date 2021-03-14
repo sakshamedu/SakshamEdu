@@ -6,7 +6,25 @@ body, html {
 	align-items: center;
 	background-color:lightgreen;
 }
+h1,h2,h3,h4,h5,h6,
+blockquote {
+  font-weight: 600;
+}
 
+h1 {
+    font-size: 4.5rem;
+    line-height: 6.5rem;
+    /*letter-spacing: 10px;
+    text-transform: uppercase;*/
+    padding-top: 12px;
+}
+
+h2 {
+  font-size: 30px;
+  /*letter-spacing: 6px;
+  padding-bottom: 8px;
+  /*text-transform: uppercase;*/
+}
 a {
     color: white;
     text-decoration: none;
@@ -14,6 +32,10 @@ a {
 
 body {
     background-size: cover;
+}
+
+span {
+  background-color: lightgreen;
 }
 
 /*.bg {
@@ -27,7 +49,7 @@ body {
 .navbar {
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    /*align-items: center;*/
     background-color: white;
 
     z-index: 200;
@@ -63,3 +85,134 @@ body {
     font-size: 18px;
 
 }
+
+.navbar1 {
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+    background-color: white;
+
+    z-index: 200;
+    padding: 0 86px;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    transition: top 0.3s;
+
+}
+.navbar1 .menu-items {
+    display: flex;
+    list-style-type: none;
+}
+
+.navbar1 .menu-items li {
+
+    margin: 0 21px;
+
+}
+.navbar1 .menu-items li:nth-last-of-type(1) {
+    margin-right: 0;
+}
+
+/*.navbar .menu-items li a:hover {
+    background: rgb(38, 199, 38);
+    color: black;
+  }*/
+  
+.navbar1 .menu-items li a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+
+}
+
+.footer-out {
+	    width: 100%;
+	    height: auto;
+	    padding: 10px 10px;
+	    background: #111;
+	    display: flex;
+	    justify-content: center;
+	    margin-top: 10px;
+}
+
+footer {
+	    width: 100%;
+	    height: auto;
+	    padding: 50px 100px;
+	    background: #111;
+	    display: flex;
+	    justify-content: left;
+	    flex-direction: row;
+	    margin-top: 65px;
+}
+
+
+.sci {
+    	   margin: auto;
+    	   display: flex;
+}
+.sci ultra-condensed{
+	   margin: auto;
+}
+.sci li {
+    	  list-style: none;
+}
+.sci li a {
+	    display: inline-block;
+	    margin: 0 20px;
+	    width: 100px;
+}
+footer .container1 {
+	    display: flex;
+	    margin-right: 50px;
+	    justify-content: space-between;
+	    flex-wrap: wrap ;
+	    flex-direction: row;
+}
+
+
+footer .container1 .saksham {
+	    width: 30%;
+
+}
+footer .container1 h3 {
+	    position: relative;
+	    color: #fff;
+	    font-weight: 500;
+	    margin-bottom: 15px;
+
+}
+footer .container1  h2:before
+{
+	    content: '';
+	    position: absolute;
+	    bottom: -5px;
+	    left: 0;
+	    width: 50px;
+	    height: 2px;
+	    background: #f00;
+}
+footer  p {
+	    color: #999;
+	    font-size: 12px;
+
+}
+footer .foot {
+	    display: flex;
+	    padding-left: 500px;
+	    padding-bottom: 20px;
+	    margin-left: 50px;
+	    text-decoration: none;
+}
+.foot li {
+    	    list-style: none;
+}
+/*
+.foot li a {
+    display: inline-block;
+    margin: 0 20px;
+    width: 100px;
+}
+
+
