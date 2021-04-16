@@ -338,6 +338,31 @@ padding-top: 14rem;
   color: #ffffff;
 }
 
+/*--------------------------------------
+    Introduction
+---------------------------------------*/
+#Introduction{
+ padding:100px;
+}
+
+#Intro blockquote {
+  background: #ffffff;
+  box-shadow: 0px 2px 8px 10px rgba(50, 50, 50, 0.04);
+  height:200px;
+  letter-spacing: 1px;
+  position: relative;
+  font-size: 20px;
+  text-align:center;
+  top:30px;
+
+  padding:20px;
+}
+#Intro .img{
+  padding-top:80px;
+}
+#Intro h2{
+  text-align:center;
+}
 
 /*---------------------------------------
    Trainer section              
